@@ -54,7 +54,8 @@ header {
 
  /* Hero Section Start */
  .hero{
-  background-image: url("images/heroImage.jpeg");
+  background-image: url("images/noodles.jpg");
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
