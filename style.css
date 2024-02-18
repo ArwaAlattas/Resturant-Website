@@ -1,3 +1,88 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+#product-section {
+  background-color: #f9e8d9;
+}
+
+.product-heading {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.product-heading h3 {
+  color: rgb(59, 57, 57);
+}
+
+.product-heading p {
+  color: rgb(118, 118, 118);
+  margin-bottom: 2rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.product {
+  width: 23%;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin: 15px;
+  width: 270px;
+  border-radius: 5px;
+  background-color: rgb(240, 240, 240);
+}
+
+.product__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.product__title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(118, 118, 118);
+}
+
+.product__image img {
+  width: 270px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.product__description {
+  color: rgb(118, 118, 118);
+}
+
+.price {
+  color: #ee7214;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.view-menu {
+  background-color: #ee7214;
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+.view-menu:hover {
+  background-color: rgb(255, 255, 255);
+  color: #ee7214;
+}
+=======
 *{
   scroll-behavior: smooth;
   box-sizing: border-box;
@@ -120,3 +205,4 @@ header {
 }
 
  /* Hero Section End */
+
