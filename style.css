@@ -163,8 +163,11 @@ header {
   width: 270px;
   border-radius: 5px;
   background-color: white;
+  transition: all 0.5s linear;
 }
-
+.product:hover{
+  transform: scale(1.1);
+}
 .product__content {
   display: flex;
   flex-direction: column;
