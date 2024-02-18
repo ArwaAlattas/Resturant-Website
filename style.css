@@ -1,3 +1,10 @@
+*{
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: serif,Arial;
+  padding: 0;
+  margin: 0;
+}
 body {
     font-family: Roboto;
     margin: 0;
@@ -42,3 +49,73 @@ header {
   a:hover {
     text-decoration: underline; 
   }
+
+
+
+ /* Hero Section Start */
+ .hero{
+  background-image: url("images/heroImage.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:15px 90px 20px 40px;
+  background-color: #fff4d7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.hero-title{
+  color: white;
+  white-space: pre-line
+}
+.hero-title span{
+  color: #d4cbb5;
+}
+.hero-subtitle{
+  white-space: pre-line;
+  margin: 10px 0px;
+  color:white;
+}
+ .hero-btn1{
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black;
+  background-color: #d4cbb5;
+  border: none;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+ }
+ .hero-btn2{
+  margin: 10px;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:#fff4d7;
+  background-color: #575558;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 8px;
+  
+ }
+.hero-btn1:hover {
+  background-color: gray
+}
+.hero-btn1:active{
+  background-color: gray;
+  box-shadow:var(--box-shadow);
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+ /* Hero Section End */
