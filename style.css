@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+  }
+  
+header {
+    background-color: #fff4d7;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cartIcon {
+    width: 40px;
+  }
+
+  ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block; 
+    margin-right: 10px; 
+  }
+
+  a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    text-decoration: underline; 
+  }
