@@ -81,18 +81,3 @@ body {
   background-color: rgb(255, 255, 255);
   color: #ee7214;
 }
-@media screen and (max-width: 600px) {
-  .product-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .product {
-    width: 100%;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    margin: 15px;
-    width: 270px;
-    border-radius: 5px;
-    background-color: rgb(240, 240, 240);
-  }
-}
